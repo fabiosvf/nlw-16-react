@@ -139,3 +139,11 @@ $ npm i localforage match-sorter sort-by
 - E para realizar a primeira migração e melhoria de código, mova todo o conteúdo do arquivo `app.tsx` para o arquivo `index.tsx` que acabamos de criar
 - Em seguida renomeie a função `App()` para `CreateTripPage()`
 - No arquivo `app.tsx` iremos implementar as rotas utilizando os recursos `` e `` da biblioteca `react-router-dom`
+
+
+## Organizando a aplicação em Componentes
+- Para criar um componente, vamos criar um arquivo `.tsx` para cada pedaço da aplicação que queremos separar do código principal. Com isso transformares essa parte do código em um componente.
+- Esses componentes são criados dentro da mesma página de onde o trecho de código foi extraído
+- Dentro de cada componente, será necessário criar uma interface, que por convenção terá o mesmo nome do componente acredito do sufixo `Props`. Por exemplo:
+  - O arquivo `invite-guests-modal.tsx` se chamará `InviteGuestsModal()` e terá uma `interface` chamada `InviteGuestsModalProps`
+  - E assim por diante
