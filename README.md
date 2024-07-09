@@ -98,3 +98,14 @@ Inter Google Fonts
     },
   },
 ```
+
+## Configurando a paleta de cores no `Tailwindcss`
+- No google, digite:
+```
+tailwind colors
+```
+- Abra o link [`Customizing Colors`](https://tailwindcss.com/docs/customizing-colors) na resultado da pesquisa
+- Para testar, adicione às seguintes classes na tag `body` do arquivo `index.html` na raiz do projeto:
+```html
+<body class="bg-zinc-950 text-zinc-50 antialiased">
+```
