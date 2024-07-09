@@ -109,3 +109,13 @@ tailwind colors
 ```html
 <body class="bg-zinc-950 text-zinc-50 antialiased">
 ```
+
+## Instalando a biblioteca de icones
+- Para instalar a biblioteca `Lucide`, digite:
+```
+$ npm i lucide-react
+```
+
+## Implementando a Página Principal
+- Todo o formulário e a lógica da página inicial foi aplicada no arquivo `src/app.tsx`
+
