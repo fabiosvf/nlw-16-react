@@ -119,3 +119,23 @@ $ npm i lucide-react
 ## Implementando a Página Principal
 - Todo o formulário e a lógica da página inicial foi aplicada no arquivo `src/app.tsx`
 
+## Trabalhando com Rotas
+- Para trabalhar com rotas no `React` iremos utilizar o [`React Router`](reactrouter.com)
+- Para instalar as dependências do `React Router`, digite:
+```
+$ npm i react-router-dom
+```
+- E para complementar, instale também as próximas bibliotecas:
+```
+$ npm i localforage match-sorter sort-by
+```
+
+## Criando as páginas/rotas
+- Dentro da pasta `src` que está na raiz do projeto, crie as pastas `pages\create-trip` e por fim o arquivo `index.tsx`
+  - Onde `pages` é a pasta onde ficaram todas as páginas roteadas
+  - `create-trip` é a pasta que irá armazenar o conteúdo de uma página específica
+  - E `index.tsx` é o arquivo responsável pelo código da página
+- Essa estrutura é uma convenção a ser utilizada na utilização da biblioteca `react-router-dom`
+- E para realizar a primeira migração e melhoria de código, mova todo o conteúdo do arquivo `app.tsx` para o arquivo `index.tsx` que acabamos de criar
+- Em seguida renomeie a função `App()` para `CreateTripPage()`
+- No arquivo `app.tsx` iremos implementar as rotas utilizando os recursos `` e `` da biblioteca `react-router-dom`
