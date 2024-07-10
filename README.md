@@ -147,3 +147,14 @@ $ npm i localforage match-sorter sort-by
 - Dentro de cada componente, será necessário criar uma interface, que por convenção terá o mesmo nome do componente acredito do sufixo `Props`. Por exemplo:
   - O arquivo `invite-guests-modal.tsx` se chamará `InviteGuestsModal()` e terá uma `interface` chamada `InviteGuestsModalProps`
   - E assim por diante
+
+## Trabalhando com Componentes Globais
+- Para criar um componente global (que será utilizado em vários lugares da aplicação), na raiz do projeto, dentro da pasta `src`, crie a pasta `components`
+- Em seguida crie o arquivo `.tsx` responsável pelo componente
+- Como exemplo, criamos o componente `button.tsx`
+- Pra complementar, vamos precisar instalar uma nova biblioteca pra utilizar junto com o `Tailwind` chamada de [`tailwind-variants`](https://www.tailwind-variants.org/).
+  - Essas biblioteca permite criar variações do mesmo componente sem precisar replicar todo o código para um novo componente. Podemos apenas criar essas variações, nomeá-las e passar essa informação á partir do ponto em que está sendo chamado
+- Para instalar essa biblioteca, digite:
+```
+$ npm i tailwind-variants
+```
