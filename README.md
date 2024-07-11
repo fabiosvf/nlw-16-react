@@ -158,3 +158,38 @@ $ npm i localforage match-sorter sort-by
 ```
 $ npm i tailwind-variants
 ```
+
+## Implementando o Componente de Calendário
+- Inicialmente vamos precisar de uma biblioteca que permita selecionar um intervalo de data em um calendário. O nome da biblioteca que possui esse recurso é o [`React DayPicker`](https://daypicker.dev/)
+- De acordo com a documentação, para instalar, digite o seguinte código no terminal:
+```
+$ npm i react-day-picker date-fns
+```
+- Junto com a lib do calendário, também instalamos a biblioteca para formatação de datas chamada `date-fns`
+- Caso precise de mais informações sobre como utilizar a biblioteca `date-fns`, consulte a documentação em [`date-fns`](https://date-fns.org/)
+
+## Integrando o Frontend com a API
+- Para iniciar essa parte, vamos precisar instalar uma biblioteca chamada `axios` que tem a função de fazer requisições `HTTP`
+- Para instalar essa biblioteca digite:
+```
+$ npm i axios
+```
+- Favor consultar o codigo para conferir a implementação
+
+## Executando a aplicação
+- Para fazer o clone do projeto, crie uma pasta, acesse-a e no terminal digite:
+```
+$ git clone https://github.com/fabiosvf/nlw-16-react.git
+```
+- Para atualizar todas as bibliotecas digite:
+```
+$ npm i
+```
+- Para executar a aplicação digite:
+```
+$ npm run dev
+```
+- Para clonar a API utilizada nesse projeto, crie uma pasta, acesse-a e no terminal digite:
+```
+$ git clone https://github.com/rocketseat-education/nlw-journey-nodejs.git
+```
